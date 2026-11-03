@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp" android:background="#0F1115">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="XAUUSD SURVIVAL BOT" android:textColor="#FFD700" android:textSize="22sp"
+        android:textStyle="bold" android:gravity="center" android:layout_marginBottom="16dp"/>
+    <TextView android:id="@+id/priceText" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Price: Loading..." android:textColor="#FFFFFF" android:textSize="20sp"
+        android:gravity="center" android:padding="12dp" android:background="#1E222A"/>
+    <TextView android:id="@+id/signalText" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="SIGNAL: WAITING FOR HUNT" android:textColor="#AAAAAA" android:textSize="18sp"
+        android:textStyle="bold" android:gravity="center" android:layout_marginTop="20dp"
+        android:padding="20dp" android:background="#1E222A"/>
+    <Button android:id="@+id/btnBuy" android:layout_width="match_parent" android:layout_height="56dp"
+        android:text="BUY SIGNAL" android:layout_marginTop="24dp" android:backgroundTint="#1DB954"/>
+    <Button android:id="@+id/btnSell" android:layout_width="match_parent" android:layout_height="56dp"
+        android:text="SELL SIGNAL" android:layout_marginTop="12dp" android:backgroundTint="#E53935"/>
+    <TextView android:id="@+id/logText" android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:text="Log:" android:textColor="#CCCCCC"
+        android:textSize="12sp" android:layout_marginTop="16dp" android:background="#1E222A" android:padding="10dp"/>
+</LinearLayout>
